@@ -1,0 +1,106 @@
+/** ADD YOUR AWESOME CODES HERE **/
+.project-content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .img-overlay:hover .project-content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+
+  .project-content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .project-content-details p{
+    color: #fff;
+    font-size: 0.8em;
+  }
+  
+  .skl_accordion > input[type="checkbox"] {
+    position: absolute;
+    left: -100vw;
+  }
+  
+  .skl_accordion .skl_content {
+    overflow-y: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+  }
+  
+  .skl_accordion > input[type="checkbox"]:checked ~ .skl_content {
+    height: auto;
+    overflow: visible;
+  }
+  
+  .skl_accordion label {
+    display: block;
+  }
+
+/*
+ Styling
+*/
+
+.skl_accordion {
+  margin-bottom: 1em;
+  width:500px;
+  margin-right: 6em;
+}
+
+.skl_accordion > input[type="checkbox"]:checked ~ .skl_content {
+  padding: 15px;
+  border: 1px solid #ebebeb;
+  border-top: 2;
+  margin-right:0em;
+}
+
+.skl_accordion .skl_handle {
+  margin: 0.25;
+  font-size: 1.125em;
+  line-height: 1.2em;
+}
+
+.skl_accordion label {
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 15px;
+  background: #ffffff;
+}
+
+.skl_accordion label:hover,
+.skl_accordion label:focus {
+  background: #edebeb;
+}
+
+.skl_accordion .skl_handle label:before {
+  font-family: 'fontawesome';
+  content: "\f054";
+  display: inline-block;
+  margin-right: 10px;
+  font-size: .58em;
+  line-height: 1.556em;
+  vertical-align: middle;
+}
+
+.skl_accordion > input[type="checkbox"]:checked ~ .skl_handle label:before {
+  content: "\f078";
+}
