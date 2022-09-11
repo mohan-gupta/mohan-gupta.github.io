@@ -1,3 +1,3 @@
-# [Mohan Gupta](mohan-gupta.github.io)
+# [Mohan Gupta](https://www.mohan-gupta.github.io)
 
 Portfolio website
