@@ -839,7 +839,9 @@ xclip
     display: block;
     margin-top: 20px;
 }
-
+.testimonial div{
+    height: 170px;
+}
 .testimonial h4 {
     font-size: 18px;
     color: #333333;
