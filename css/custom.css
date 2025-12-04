@@ -16,7 +16,7 @@
     transition: all 0.3s ease-in-out 0s;
   }
 
-  .img-overlay:hover .project-content-details{
+  .img-overlay .project-content-details{
     top: 50%;
     left: 50%;
     opacity: 1;
